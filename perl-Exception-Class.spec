@@ -1,6 +1,6 @@
 Name:           perl-Exception-Class
 Version:        1.37
-Release:        2%{?dist}
+Release:        3%{?dist}
 Summary:        Module that allows you to declare real exception classes in Perl
 License:        GPL+ or Artistic
 Group:          Development/Libraries
@@ -46,6 +46,9 @@ make test
 %{_mandir}/man3/Exception::Class::Base.3pm*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.37-3
+- Mass rebuild 2013-12-27
+
 * Wed Jun 26 2013 Jitka Plesnikova <jplesnik@redhat.com> - 1.37-2
 - License is GPL+ or Artistic now
 - Specify all dependencies
