@@ -1,0 +1,30 @@
+---
+abstract: 'A module that allows you to declare real exception classes in Perl'
+author:
+  - 'Dave Rolsky <autarch@urth.org>'
+build_requires:
+  File::Spec: 0
+  Test::More: 0.88
+  vars: 0
+configure_requires:
+  ExtUtils::MakeMaker: 6.30
+dynamic_config: 0
+generated_by: 'Dist::Zilla version 4.300030, CPAN::Meta::Converter version 2.120921'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Exception-Class
+requires:
+  Class::Data::Inheritable: 0.02
+  Devel::StackTrace: 1.20
+  Scalar::Util: 0
+  base: 0
+  overload: 0
+  perl: 5.008001
+  strict: 0
+  warnings: 0
+resources:
+  bugtracker: http://rt.cpan.org/NoAuth/Bugs.html?Dist=Exception-Class
+  repository: git://git.urth.org/Exception-Class.git
+version: 1.37
